@@ -28,6 +28,10 @@ main {
   padding: 40px 0px;
 }
 
+.portfolio-list {
+  list-style-type: decimal;
+}
+
 .portfolio-list__item a {
   padding: 4px 0px;
 }
