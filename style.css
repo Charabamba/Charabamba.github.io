@@ -28,12 +28,14 @@ main {
   padding: 40px 0px;
 }
 
-.portfolio-list {
-  list-style-type: decimal;
+.portfolio-list__item {
+  display: flex;
+  align-items: center;
 }
 
 .portfolio-list__item a {
   padding: 4px 0px;
+  padding-right: 10px;
 }
 .portfolio-list__item a:hover {
   text-decoration: underline;
